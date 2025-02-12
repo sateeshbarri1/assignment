@@ -22,7 +22,7 @@ const Search = ({ user, setUser }) => {
         .then(res => setResults(res.data.results))
         .catch(() => setError("Failed to fetch planets"));
     }
-  }, [query]);
+  }, [query, searchCount, user.name]);
 
   const handleLogout = () => {
     console.log(user,"user")
