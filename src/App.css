@@ -1,0 +1,54 @@
+#app {
+  margin: auto;
+  width: 500px;
+  padding: 0px 15px;
+}
+#form {
+  margin-bottom: 40px;
+}
+#header {
+  margin: auto;
+  text-align: center;
+}
+#form__input {
+  float: left;
+  font-size: 16px;
+  padding: 6px 8px;
+  box-sizing: border-box; /* Just to ensure the padding is included in the size of the box*/
+  width: 80%;
+}
+#form__submit {
+  float: right;
+  padding: 10px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#todolist {
+  width: 100%;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#todo {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-radius: 5px;
+  margin: 5px 0px;
+  background-color: #e8e8e8;
+  position: relative;
+  padding: 20px 20px;
+}
+
+#todo__delete {
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
